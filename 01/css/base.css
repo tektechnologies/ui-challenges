@@ -1,0 +1,275 @@
+/* Reset */
+
+html, body { margin: 0; padding: 0; border: 0;  
+  background: transparent; font-size:10px; background-repeat:no-repeat;  background-attachment: fixed;}
+
+div, span, article, aside, footer, header, hgroup, nav, section,
+h1, h2, h3, h4, h5, h6, p, blockquote, a, ol, ul, li, 
+table, tr, th, td, tbody, tfoot, thead {
+margin: 0;
+padding: 0;
+border: 0;
+vertical-align: baseline;
+background: transparent;
+}
+
+img 	{ margin:0; padding:0; border:0; }
+
+table, tr, th, td, tbody, tfoot, thead {
+margin: 0; padding: 0; border: 0;
+vertical-align: baseline;
+background: transparent;
+}
+
+table { border-collapse: collapse; border-spacing: 0; }
+
+input, select, textarea, form, fieldset {
+margin: 0; padding: 0; border: 0;
+}
+
+article, aside, dialog, figure, footer, header, hgroup, nav, section { 
+display:block; }
+
+h1, h2, h3, h4, h5, h6, p, li, blockquote, td, th, a, caption, em, strong, strike {
+font-family: Arial, Helvetica, sans-serif;
+font-size:100%;
+font-weight: normal;
+font-style: normal;
+line-height: 100%;
+text-indent: 0;
+text-decoration: none;
+color: #000;
+}
+
+ol, ul { list-style: none; }
+
+/* Global */
+body {
+  width: 100%;
+  background-color: rgb(18, 240, 92);
+  color: black;
+  text-align: center;
+}
+
+* p {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%)
+}
+/* Headings */
+
+/* Text Elements */
+
+/* Images */
+
+/* Lists */
+
+/* Tables */
+
+/* Miscellaneous */
+
+/* Containers */
+
+.outter-wrapper{  width:960px; margin:10px auto; background-color:rgb(232, 238, 243);  }
+.header-a {
+  width: 960px;
+  height: 100px;
+  background-color: rgb(16, 245, 245);
+}
+.left-aside-b  {
+  width: 200px;
+  height: 600px;
+  background-color: azure;
+  float: left;
+}
+.top-main-left-c{
+  width: 380px;
+  height: 200px;
+  background-color: rgb(32, 206, 206);
+  float: left;
+}
+.top-main-right-d { 
+  width: 380px;
+  height: 200px;
+  background-color: rgb(131, 221, 14);
+  float:left;
+}
+.bottom-main-left-e {
+  width: 190px;
+  height: 250px;
+  background-color: rgb(224, 42, 170);
+  float: left; 
+ }
+.bottom-main-leftmiddle-f {
+  width: 190px;
+  height: 250px;
+  background-color: rgb(146, 40, 179);
+  float:left;
+ }
+.bottom-main-rightmiddle-g {
+  width: 190px;
+  height: 250px;
+  background-color: rgb(230, 101, 15);
+  float: left;
+ }
+.bottom-main-right-h {
+  width: 190px;
+  height: 250px;
+  background-color: rgb(30, 47, 196);
+  float:left;
+ }
+.footer-i{
+  width: 760px;
+  height: 150px;
+  background-color: rgb(191, 235, 33);
+  float: left;
+ }
+
+
+/* Layout Extra */
+
+
+
+@media screen and (min-width: 768px) and (max-width:960px) {
+  body {
+      width: 100%;
+      background-color: blue;
+      text-align: center;
+
+  }
+  .outter-wrapper{  width:960px; margin:10px auto;}
+  .header-a {
+    width: 960px;
+    height: 100px;
+    background-color: rgb(16, 245, 245);
+  }
+  .left-aside-b  {
+    width: 200px;
+    height: 600px;
+    background-color: azure;
+    float: left;
+  }
+  .top-main-left-c{
+    width: 380px;
+    height: 200px;
+    background-color: rgb(32, 206, 206);
+    float: left;
+  }
+  .top-main-right-d { 
+    width: 380px;
+    height: 200px;
+    background-color: rgb(131, 221, 14);
+    float:left;
+  }
+  .bottom-main-left-e {
+    width: 190px;
+    height: 250px;
+    background-color: rgb(224, 42, 170);
+    float: left; 
+   }
+  .bottom-main-leftmiddle-f {
+    width: 190px;
+    height: 250px;
+    background-color: rgb(146, 40, 179);
+    float:left;
+   }
+  .bottom-main-rightmiddle-g {
+    width: 190px;
+    height: 250px;
+    background-color: rgb(230, 101, 15);
+    float: left;
+   }
+  .bottom-main-right-h {
+    width: 190px;
+    height: 250px;
+    background-color: rgb(30, 47, 196);
+    float:left;
+   }
+  .footer-i{
+    width: 760px;
+    height: 150px;
+    background-color: rgb(191, 235, 33);
+    float: left;
+   }
+  
+}
+
+/* On screens that are 600px wide or less, the background color is olive */
+@media screen and (min-width: 480px) and (max-width: 768px) {
+  body {
+      width: 100%;
+      background-color: rgb(235, 25, 189);
+      text-align: center;
+  }
+  .outter-wrapper{  width:480px;}
+  .header-a {
+    width: 480px;
+    height: 75px;
+    background-color: rgb(16, 245, 245);
+  }
+  
+  .left-aside-b  {
+    width: 480px;
+    height: 150px;
+    background-color: azure;
+  }
+  
+  .top-main-left-c{
+    width: 480px;
+    height: 125px;
+    background-color: rgb(32, 206, 206);
+  }
+  
+  .top-main-right-d { 
+    width: 480px;
+    height: 125px;
+    background-color: rgb(131, 221, 14);
+  }
+  
+  .bottom-main-left-e {
+    width: 240px;
+    height: 250px;
+    background-color: rgb(224, 42, 170);
+    float: left;
+    
+   }
+  .bottom-main-leftmiddle-f {
+    width: 240px;
+    height: 250px;
+    background-color: rgb(146, 40, 179);
+    float:right;
+   }
+  .bottom-main-rightmiddle-g {
+    width: 240px;
+    height: 250px;
+    background-color: rgb(230, 101, 15);
+    float: left;
+    
+   }
+  .bottom-main-right-h {
+    width: 240px;
+    height: 250px;
+    background-color: rgb(30, 47, 196);
+    float:right;
+   }
+  
+  .footer-i{
+    width: 480px;
+    height: 80px;
+    background-color: rgb(191, 235, 33);
+    float: left;
+   }
+  
+
+
+
+
+}
+
+/* Navigation Extra */
+
+/* Forms */
+
+/* Miscellaneous  */
